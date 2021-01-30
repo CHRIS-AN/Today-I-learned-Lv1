@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+// 검색 범위의 맨 앞 인덱스를 pl, 맨 끝 인덱스를 pr, 중앙 인덱스를 pc라고 지정합니다.
+// 검색을 시작할 때, pl은 0, pr은 n-1, pc는 (n-1)/2로 초기화 합니다.
+
+
 public class BinSearch {
 
     static int binSearch(int [] a, int n , int key) {
